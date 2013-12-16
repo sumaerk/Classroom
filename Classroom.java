@@ -10,7 +10,7 @@ class Classroom {
         String[] x;
 
 
-        public void Classroom(){
+        public Classroom(){
                 try{
                         this.reader = new Scanner(new File("class.csv"));
                 }catch(IOException e){
